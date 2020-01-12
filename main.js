@@ -50,3 +50,12 @@ function min(a, b) {
         return b;
     }
 }
+
+function max(a, y) {
+    if (a > y) {
+        return a
+    }
+    else {
+        return y;
+    }
+}
