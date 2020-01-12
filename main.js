@@ -59,3 +59,9 @@ function max(a, y) {
         return y;
     }
 }
+function min (a, b) {
+    return a < b ? a : b;
+}
+function max(a, y) {
+    return a > y ? a : y;
+}
