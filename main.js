@@ -65,3 +65,18 @@ function min(a, b) {
 function max(a, y) {
     return a > y ? a : y;
 }
+function rand(val, min, max, length) {
+    var obj = {}, arr = [val];
+    obj[val] = true;
+    length--;
+    while (length) {
+        var rnd = Math.floor(Math.random() * (max - min + 1)) + min;
+        if (!obj[rnd]) {
+            obj[rnd] = true;
+            length--;
+            arr[Math.random() > .5 ? 'push' : 'unshift'](rnd)
+        };
+    }
+    return arr
+}
+
