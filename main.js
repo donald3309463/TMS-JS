@@ -42,7 +42,7 @@
 //     console.log (`${key}: ${obj[key]}`);
 // }
 
-function min(a, b) {
+function min (a, b) {
     if (a < b) {
         return a;
     }
@@ -51,7 +51,7 @@ function min(a, b) {
     }
 }
 
-function max(a, y) {
+function max (a, y) {
     if (a > y) {
         return a
     }
@@ -62,6 +62,6 @@ function max(a, y) {
 function min (a, b) {
     return a < b ? a : b;
 }
-function max(a, y) {
+function max (a, y) {
     return a > y ? a : y;
 }
